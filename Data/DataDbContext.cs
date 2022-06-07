@@ -12,6 +12,8 @@ namespace Data
         DbSet<Estudante> Estudantes { get; set; }
         DbSet<Turma> Turmas { get; set; }
 
+        DbSet<Disciplina> Disciplinas { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseSqlite("Data Source=D:\\SourceCode\\dotNet\\aspNetCore\\relationship\\dataBase\\db01.db");
        
