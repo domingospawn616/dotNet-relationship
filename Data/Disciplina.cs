@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    public class Turma
+    public class Disciplina
     {
-        public int Id { get; set; } 
-        public string Descricao { get; set; }
+        public int Id { get; set; }
+        public string Nome { get; set; }
     }
 }
